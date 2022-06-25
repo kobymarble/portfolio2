@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Press+Start+2P&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        -webkit-font-smoothing: antialiased;
+      }
+      .font-2p {
+        font-family: "Press Start 2P", cursive;
+      }
+      .font-space-mono {
+        font-family: "Space Mono", monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div
+        id="container"
+        class="absolute text-white text-center"
+        style="top: 50%; transform: translate(-50%, -50%); left: 50%"
+      >
+        <h1
+          id="kobymarble"
+          class="font-space-mono text-sm uppercase tracking-wide opacity-0 w-full max-w-2xl px-6"
+          style="transform: translateY(30px);"
+        >
+          Koby Marble
+        </h1>
+        <p id="meathell" 
+        class="font-2p text-4xl opacity-0"
+        style="transform: translateY(30px)"
+        >
+        ESCAPE FROM MEAT HELL
+        </p>
+        <button
+          id="viewwork"
+          class="border px-4 py-2 rounded-lg text-sm font-space-mono uppercase mt-8 hover:bg-white hover:text-gray-800 opacity-0"
+          style="transform: translateY(30px)"
+          >
+          view work
+        </button>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
